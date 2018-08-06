@@ -1,4 +1,4 @@
-# nodexpert:meteor-cache
+# jaskinn:meteor-cache
 
 Meteor wrapper for node-cache.
 
@@ -6,12 +6,13 @@ It allows you to store the values in cache on server same as the client side cac
 
 ## To install package
 
-`meteor add nodexpert:meteor-cache`
+`meteor add jakerwr:meteor-cache`
 
 ---
 
 ## How to use?
-`import MeteorCache from 'meteor/nodexpert:meteor-cache';`
+
+`import MeteorCache from 'meteor/jakerwr:meteor-cache';`
 
 `const cache = new MeteorCache();` //
 
@@ -26,7 +27,6 @@ It allows you to store the values in cache on server same as the client side cac
 ### To delete value from cache
 
 `cache.del('cache-name')`
-
 
 #### For demo run the example-app and go through it's README.md file.
 
